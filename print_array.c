@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_array - Prints an array of integers
+ * print_array - Prints integers array
  *
- * @array: The array to be printed
- * @size: Number of elements in @array
+ * @array: array printed
+ * @size: Number of elements
  */
 void print_array(const int *array, size_t size)
 {
@@ -21,4 +21,3 @@ void print_array(const int *array, size_t size)
 	}
 	printf("\n");
 }
-
